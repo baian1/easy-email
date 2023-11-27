@@ -7,7 +7,8 @@
     "publish": {
       "ignoreChanges": [],
       "message": "chore(release): publish",
-      "registry": "http://10.10.1.50:8081/repository/npm-private/"
+      "registry": "http://10.10.1.50:8081/repository/npm-private/",
+      "gitRemote": "shining3d"
     },
     "bootstrap": {
       "ignore": "component-*",
