@@ -7,7 +7,7 @@
     "publish": {
       "ignoreChanges": [],
       "message": "chore(release): publish",
-      "registry": "https://registry.npmjs.org"
+      "registry": "http://10.10.1.50:8081/repository/npm-private/"
     },
     "bootstrap": {
       "ignore": "component-*",
