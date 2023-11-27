@@ -23,14 +23,30 @@ const options = [
   },
 ];
 
-export function Align({ inline }: { inline?: boolean }) {
+const optionsWithJustify = [
+  ...options,
+  {
+    value: 'justify',
+    get label() {
+      return t('justify');
+    },
+  },
+];
+
+export function Align({
+  inline,
+  supportJustify = false,
+}: {
+  inline?: boolean;
+  supportJustify?: boolean;
+}) {
   const { focusIdx } = useFocusIdx();
 
   return (
     <RadioGroupField
       label={t('Align')}
       name={`${focusIdx}.attributes.align`}
-      options={options}
+      options={supportJustify ? optionsWithJustify : options}
     />
   );
 }
