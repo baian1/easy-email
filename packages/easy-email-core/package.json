@@ -1,5 +1,5 @@
 {
-  "name": "easy-email-core",
+  "name": "@shining-it/easy-email-core",
   "license": "MIT",
   "description": "Email editor",
   "version": "4.14.2-alpha.2",

@@ -1,4 +1,4 @@
-import { IBlockData } from 'easy-email-core';
+import { IBlockData } from '@shining-it/easy-email-core';
 
 export interface BlockMarketCategory {
   name: string;

@@ -40,7 +40,7 @@
       "@core/*": [
         "../easy-email-core/src/*"
       ],
-      "easy-email-core": [
+      "@shining-it/easy-email-core": [
         "../easy-email-core"
       ]
     }

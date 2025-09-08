@@ -1,6 +1,6 @@
 import { Picture } from '@demo/components/Picture';
 import { Message } from '@arco-design/web-react';
-import { IBlockData } from 'easy-email-core';
+import { IBlockData } from '@shining-it/easy-email-core';
 import { CollectedBlock, IconFont } from 'easy-email-editor';
 import { BlockMarketCategory, BlockMaskWrapper } from 'easy-email-extensions';
 

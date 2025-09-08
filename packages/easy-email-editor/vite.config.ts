@@ -6,7 +6,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
-      'easy-email-core': path.resolve('../easy-email-core'),
+      '@shining-it/easy-email-core': path.resolve('../easy-email-core'),
     },
   },
   define: {},

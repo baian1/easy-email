@@ -1,6 +1,6 @@
-import { IconFont, BlockAvatarWrapper } from 'easy-email-editor';
+import { IconFont, BlockAvatarWrapper } from '@shining-it/easy-email-editor';
 import React, { useCallback, useEffect, useRef } from 'react';
-import { BlockType } from 'easy-email-core';
+import { BlockType } from '@shining-it/easy-email-core';
 import styles from './index.module.scss';
 
 export const BlockMaskWrapper: React.FC<{
