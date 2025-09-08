@@ -14,8 +14,8 @@ export default defineConfig({
   resolve: {
     alias: {
       '@extensions': path.resolve('./src'),
-      '@shining-it/easy-email-core': path.resolve('../easy-email-core/lib'),
-      '@shining-it/easy-email-editor': path.resolve('../easy-email-editor/lib'),
+      '@shining-it/easy-email-core': path.resolve('../easy-email-core'),
+      '@shining-it/easy-email-editor': path.resolve('../easy-email-editor'),
     },
   },
   define: {},

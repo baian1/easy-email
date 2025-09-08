@@ -9,10 +9,10 @@
       "@extensions/*": [
         "./src/*"
       ],
-      "easy-email-core": [
+      "@shining-it/easy-email-core": [
         "../easy-email-core"
       ],
-      "easy-email-editor": [
+      "@shining-it/easy-email-editor": [
         "../easy-email-editor"
       ]
     }

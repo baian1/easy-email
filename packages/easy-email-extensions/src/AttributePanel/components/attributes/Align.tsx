@@ -33,7 +33,13 @@ const optionsWithJustify = [
   },
 ];
 
-export function Align({ supportJustify = false }: { supportJustify?: boolean }) {
+export function Align({
+  inline,
+  supportJustify = false,
+}: {
+  inline?: boolean;
+  supportJustify?: boolean;
+}) {
   const { focusIdx } = useFocusIdx();
 
   return (
