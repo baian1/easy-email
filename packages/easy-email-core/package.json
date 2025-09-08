@@ -81,5 +81,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
+  "publishConfig": {
+    "@shining-it:registry": "https://nexus.shining3d-daily.work/repository/npm-private/"
+  },
   "gitHead": "f6cf54160ffdba0d4d6b23483293dd9190d2d2c2"
 }

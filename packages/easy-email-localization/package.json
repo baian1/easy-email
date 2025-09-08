@@ -11,6 +11,9 @@
   "scripts": {
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
+  "publishConfig": {
+    "@shining-it:registry": "https://nexus.shining3d-daily.work/repository/npm-private/"
+  },
   "devDependencies": {
     "prettier": "^2.8.4"
   }
